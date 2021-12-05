@@ -1,0 +1,135 @@
+/* Write some CSS below */
+body	{
+	background-color: rgb(252,238,243);
+}
+
+h1	{
+	font-family: Open Sans Condensed;
+	font-size: 150px;
+	margin-top: 0px;
+}
+
+h2	{
+	font-size: 30px;
+	box-shadow: 2px 2px 10px rgb(139 181 204);
+	transform: translateY(-15px);
+}
+
+h3	{
+	font-family: Gwendolyn;
+	font-size: 40px;
+	color: rgb(204,86,80);
+	text-align: center;
+}
+
+h4	{
+	font-family: Gwendolyn;
+	font-size: 25px;
+	color: rgb(204,86,80);
+	transform: translateY(-28px);
+}
+
+h5	{
+	font-family: Open Sans Condensed;
+	text-align: center;
+	color: #578fba;
+	font-size: 40px;
+	margin-bottom: 16px;
+	text-shadow: 2px 2px 10px rgb(191,173,187);
+}
+
+a	{
+	font-family: Lobster Two;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+p {
+	font-family: Gwendolyn;
+	font-size: 35px;
+	color: rgb(204,86,80);
+	margin-top: 6px;
+}
+
+
+.banner {
+	text-align: center;
+	background-image: url(images/newyork2.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white; 
+	padding: 40px 0px;
+	object-fit: cover;
+}
+
+.btn-cream {
+	background-color: #fceef3;
+	padding: 10px 20px;
+	border-radius: 8px;
+	margin-bottom: 100px;
+	color: #578fba;
+	font-size: 18px;
+}
+
+.container {
+	width: 1300px;
+	margin-bottom: 100px;
+	margin: auto;
+}
+
+
+.card-white {
+	background-color: rgb(191,173,187);
+	width: 310px;
+	height: 220px;
+	text-align: center;
+	font-family: Lobster Two;
+	font-size: 18px;
+	padding: 27px;
+	margin: 28px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px rgb(139 181 204);
+	align-items: start;
+  	justify-content: center;
+}
+
+.card-white img {
+	width: 280px;
+	height: 190px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+
+
+.cards	{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card-whites	{
+	display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   align-content: center;
+}
+
+.Footer {
+	background-color: #bfadbb;
+	padding: 18px;
+	text-align: center;
+	transform: translateY(100px);
+	height: 150px;
+}
+
+.btn-cream2	{
+	background-color: #fceef3;
+	padding: 10px 20px;
+	border-radius: 8px;
+	color: #578fba;
+	font-size: 18px;
+	box-shadow: 4px 4px 10px rgb(139 181 204);
+	margin-bottom: 30px;
+}
